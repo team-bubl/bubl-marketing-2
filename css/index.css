@@ -134,7 +134,7 @@ table {
 }
 @media (min-width: 800px) {
   .container-nav .nav-links-container {
-    border: 1px solid gray;
+    border-bottom: 2px solid gray;
   }
 }
 .container-nav #logo-icon-container {
@@ -142,6 +142,7 @@ table {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
+  font-size: 2em;
 }
 .container-nav #logo-icon-container #logo-icon {
   color: gray;
@@ -151,6 +152,10 @@ table {
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+.container-home h2 {
+  font-size: 1.5em;
+  color: gray;
 }
 .container-home .container-content {
   display: flex;
@@ -162,6 +167,9 @@ table {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+}
+.container-home .container-content .content-section .text-content {
   width: 100%;
 }
 .dropdown {
@@ -215,7 +223,6 @@ body {
   min-width: 300px;
   max-width: 500px;
   margin: 0 auto;
-  border: 1px solid black;
   padding: 20px;
 }
 @media (min-width: 800px) {

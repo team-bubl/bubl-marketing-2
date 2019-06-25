@@ -187,18 +187,20 @@ table {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 95%;
+  width: 100%;
   margin-top: 100px;
 }
 .container-home .container-header .header-text h2 {
-  margin-bottom: 15px;
-}
-.container-home .container-header h2 {
   font-size: 1.5em;
-  color: gray;
+  margin-bottom: 15px;
+  color: orangered;
+}
+.container-home .container-header .header-text p {
+  color: orangered;
 }
 .container-home .container-header img {
-  max-width: 95%;
+  margin-top: 15px;
+  max-width: 100%;
   padding: 5px;
 }
 @media (min-width: 800px) {
@@ -214,6 +216,7 @@ table {
 .container-home .container-header .cta button {
   width: 75%;
   background-color: #42f4b9;
+  border-color: #42f4b9;
   padding: 10px 0;
   color: #FFFFFF;
   font-size: 2em;
@@ -238,26 +241,27 @@ table {
   flex-direction: column;
   align-items: center;
   width: 95%;
+  margin-top: 15px;
 }
 .container-home .container-content .content-section .text-content {
   width: 95%;
 }
 .container-home .container-content .content-section .text-content h2 {
   margin-bottom: 15px;
-}
-.container-home h2 {
   font-size: 1.5em;
   color: gray;
 }
-.container-home p {
+.container-home .container-content .content-section .text-content p {
   margin-bottom: 15px;
+  line-height: 20px;
+  color: gray;
 }
-.container-home img {
-  max-width: 95%;
+.container-home .container-content img {
+  max-width: 100%;
   margin-bottom: 15px;
 }
 @media (min-width: 800px) {
-  .container-home img {
+  .container-home .container-content img {
     max-width: 100%;
   }
 }

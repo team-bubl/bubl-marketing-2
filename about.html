@@ -17,52 +17,63 @@
     <script defer="defer" src="../assets/js/components/Dropdown/dropdown.js"></script>
     <script defer="defer" src="../assets/js/components/Navigation/navigation.js"></script>
 
-
+    <!-- nav -->
     <div class="container-nav">
-        <h1 id="logo-icon">Bubl</h1>
-        <div class="dropdown">
-            <div class="dropdown-button">=</div>
-            <div class="dropdown-content dropdown-hidden">
-                <a class="dropdown-link" href="./index.html" target="_blank">Home</a>
-                <a class="dropdown-link" href="" target="_blank">About</a>
-                <a class="dropdown-link" href="" target="_blank">Login</a>
-                <a class="dropdown-link" href="" target="_blank">Sign-up</a>
+        <!-- mobile drop down nav -->
+        <div class="tablet-hidden">
+            <h1 id="logo-icon">Bubl</h1>
+            <div class="dropdown">
+                <div class="dropdown-button">=</div>
+                <div class="dropdown-content dropdown-hidden">
+                    <a class="dropdown-link" href="index.html" target="_blank">Home</a>
+                    <a class="dropdown-link" href="about.html" target="_blank">About Bubl</a>
+                    <a class="dropdown-link" href="about.html" target="_blank">Who made Bubl</a>
+                    <a class="dropdown-link" href="#" target="_blank">Login</a>
+                    <a class="dropdown-link" href="#" target="_blank">Sign-up</a>
+                </div>
             </div>
         </div>
-        <!-- <h1 id="logo-icon" class="header">Bubl</h1> -->
+
+        <!-- tablet & desktop nav  bar-->
+        <div class="nav-container mobile-hidden">
+            <!-- <h1 id="logo-icon" class="header">Bubl</h1> -->
+            <div id="logo-icon-container" class="mobile-hidden">
+                <h1 id="logo-icon" class="mobile-hidden">Bubl</h1>
+            </div>
+            <nav class="nav-links mobile-hidden">
+                <a href="index.html" target=" _blank">Home</a>
+                <a href="about.html" target="_blank">About Bubl</a>
+                <a class="dropdown-link" href="about.html" target="_blank">Who made Bubl</a>
+                <a href="#" target="_blank">Login</a>
+                <a href="#" target="_blank">Sign-up</a>
+            </nav>
+        </div>
     </div>
 
-    <div class="container-home">
-        <div class="container-header">
+    <!--- Header -->
+    <div class="container-about">
+        <div class="container-header-about">
             <!-- <main class="main-content"> -->
             <header>
-                <div class="header-text">
-                    <h2>Why Bubl can help you slay Dragons</h2>
-                    <p>
-                    </p>
-
+                <div class="header-text-about">
+                    <h2>Why Bubl can help you slay <span>Dragons...</span></h2>
                 </div>
                 <div>
                     <!-----Dragon Image----->
-                    <img src="">
+                    <div id="about-header-img">
+                        <img src="assets/img/green-dragon.jpg">
+                    </div>
+
                 </div>
-                <!-- <div class="header-text">
-              <h2>Welcome To Bubl!</h2>
-              <p>Find your school, find your Bubl and connect with friends!
-              </p>
-    
-            </div> -->
             </header>
         </div>
 
-        <section class="container-content">
+        <!-- Main content / About Bubl section -->
+        <section class="container-content-about">
 
-            <section class="content-section">
-                <div class="img-content">
-                    <img src="" alt="">
-                </div>
-                <div class="text-content about">
-                    <h2>Terra Incognita - Bubl Map</h2>
+            <section class="content-section-about">
+
+                <div class="text-content-about about">
                     <h1>Terra Incognita</h1>
 
                     <p>Since early recorded history humankind has understood both the intrigue but also the inherent
@@ -86,22 +97,27 @@
                         lands we too have traveled the halls of our schools, mapping them in our minds by our own
                         experiences.
                     </p>
-                    <p>Bubls mission is to add some landmarks</p>
+                    <p>Bubls mission is to add some friendly while you step into your own Terra Incognita.</p>
+
                 </div>
             </section>
 
-
-            <section class="content-section">
+            <!--- Main content / Who made Bubl section -->
+            <section class="content-section-about bublMakers">
                 <div class="img-content">
                     <img src="" class="" alt="">
                 </div>
-                <div class="text-content whoWeAre">
-                    <h2>About us</h2>
+                <div class="text-content-about whoWeAre">
+                    <h2>Who made Bubl?</h2>
                     <!----tabs -->
 
                 </div>
             </section>
+        </section>
+        <footer>
+            <p>@Copyright Team-Bubl Lambda School 2019</p>
 
+        </footer>
 </body>
 
 </html>

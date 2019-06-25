@@ -126,26 +126,83 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-.container-nav .nav-links-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  width: 100%;
+.container-nav .main-head__nav {
+  position: relative;
 }
-@media (min-width: 800px) {
-  .container-nav .nav-links-container {
-    border-bottom: 2px solid gray;
-  }
+.container-nav .nav-toggle {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  z-index: 50;
+  top: 1em;
+  right: 10em;
+  width: 4.4em;
+  height: 4.4em;
 }
-.container-nav #logo-icon-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-  font-size: 2em;
+.container-nav .nav-toggle div {
+  position: absolute;
+  top: 30%;
+  left: -4em;
+  color: #215d6e;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
 }
-.container-nav #logo-icon-container #logo-icon {
-  color: gray;
+.container-nav .nav-toggle div:after {
+  content: "Menu";
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.container-nav .nav-toggle div:before {
+  content: "Close";
+  position: absolute;
+  opacity: 0;
+  transition: opacity 300ms;
+}
+.container-nav .nav-toggle span,
+.container-nav .nav-toggle span:after,
+.container-nav .nav-toggle span:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0.5em;
+  top: 2em;
+  left: 0;
+  right: 0;
+  border-radius: 0.5em;
+  background-color: green;
+  transition: transform 300ms, background-color 100ms;
+}
+.container-nav .nav-toggle span:after,
+.container-nav .nav-toggle span:before {
+  transition: 400ms;
+  transform-origin: 0.5em;
+}
+.container-nav .nav-toggle span:after {
+  top: 1.1em;
+}
+.container-nav .nav-toggle span:before {
+  top: -1.1em;
+}
+.container-nav .nav-toggle.active div:after {
+  opacity: 0;
+}
+.container-nav .nav-toggle.active div:before {
+  opacity: 1;
+}
+.container-nav .nav-toggle.active span {
+  transform: rotate(90deg) translate(0.2em, 0);
+  background-color: transparent;
+}
+.container-nav .nav-toggle.active span:after,
+.container-nav .nav-toggle.active span:before {
+  background-color: #676c6f;
+}
+.container-nav .nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+.container-nav .nav-toggle.active span:after {
+  transform: rotate(-45deg);
 }
 .container-home .container-header {
   display: flex;

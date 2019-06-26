@@ -392,6 +392,71 @@ footer p {
 .container-about .container-content-about .content-section-about .about {
   border-bottom: 1px solid gray;
 }
+.container-about .container-content-about .content-section-about-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.container-about .container-content-about .content-section-about-team .team-headline {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container-about .container-content-about .content-section-about-team h2 {
+  color: #ffa602;
+  font-size: 2em;
+  margin-top: 15px;
+  width: 100%;
+  text-align: center;
+}
+@media (min-width: 800px) {
+  .container-about .container-content-about .content-section-about-team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.container-about .container-content-about .content-section-about-team .team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+@media (min-width: 800px) {
+  .container-about .container-content-about .content-section-about-team .team-member {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 50%;
+  }
+}
+.container-about .container-content-about .content-section-about-team .team-member .img-content-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-about .container-content-about .content-section-about-team .team-member .img-content-team img {
+  max-width: 50%;
+}
+.container-about .container-content-about .content-section-about-team .team-member .text-content-about-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 390px;
+}
+.container-about .container-content-about .content-section-about-team .team-member .text-content-about-team h3 {
+  margin-top: 15px;
+  font-size: 1.5em;
+  color: #ffc367;
+}
+.container-about .container-content-about .content-section-about-team .team-member .text-content-about-team p {
+  margin-bottom: 15px;
+  line-height: 25px;
+  color: gray;
+  font-size: 1.2em;
+}
 .dropdown {
   z-index: 2;
   display: flex;

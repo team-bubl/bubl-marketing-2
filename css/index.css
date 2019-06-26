@@ -136,7 +136,7 @@ table {
   max-width: 500px;
 }
 .container-nav #logo-icon {
-  color: #42f4b9;
+  color: #4af5bc;
   font-size: 50px;
   position: absolute;
 }
@@ -173,7 +173,7 @@ table {
   .container-nav .nav-container .nav-links a {
     text-decoration: none;
     font-size: 1.2em;
-    color: #42f4b9;
+    color: #4af5bc;
   }
   .container-nav .nav-container .nav-links a:hover {
     color: orangered;
@@ -186,7 +186,7 @@ table {
     font-size: 2em;
   }
   .container-nav .nav-container #logo-icon-container #logo-icon {
-    color: #42f4b9;
+    color: #4af5bc;
   }
 }
 footer {
@@ -223,10 +223,10 @@ footer p {
 .container-home .container-header .header-text h2 {
   font-size: 2em;
   margin-bottom: 15px;
-  color: orange;
+  color: orangered;
 }
 .container-home .container-header .header-text p {
-  color: orange;
+  color: orangered;
   font-size: 1.3em;
   line-height: 30px;
 }
@@ -247,8 +247,8 @@ footer p {
 }
 .container-home .container-header .cta button {
   width: 75%;
-  background-color: #42f4b9;
-  border-color: #42f4b9;
+  background-color: #4af5bc;
+  border-color: #4af5bc;
   padding: 10px 0;
   color: #FFFFFF;
   font-size: 2em;
@@ -318,8 +318,8 @@ footer p {
 }
 .container-home .container-content .tablet-btn-cta button {
   width: 400px;
-  background-color: #42f4b9;
-  border-color: #42f4b9;
+  background-color: #4af5bc;
+  border-color: #4af5bc;
   padding: 10px 0;
   color: #FFFFFF;
   font-size: 2em;
@@ -344,10 +344,10 @@ footer p {
 .container-about .container-header-about .header-text-about h2 {
   font-size: 2em;
   margin-bottom: 15px;
-  color: orange;
+  color: #ffa602;
 }
 .container-about .container-header-about .header-text-about h2 span {
-  color: purple;
+  color: #9800c6;
 }
 .container-about .container-header-about #about-header-img {
   display: flex;
@@ -401,9 +401,9 @@ footer p {
 }
 .dropdown .dropdown-button {
   padding: 15px;
-  border: 3px solid #42f4b9;
+  border: 3px solid #4af5bc;
   border-radius: 5px;
-  background-color: #42f4b9;
+  background-color: #4af5bc;
   font-size: 40px;
   font-weight: bold;
   color: white;
@@ -472,7 +472,7 @@ footer p {
   }
   .tabs .topics .tabs-link:hover {
     text-decoration: underline;
-    background-color: #42f4b9;
+    background-color: #4af5bc;
     color: #FFFFFF;
   }
   .tabs .topics .active-tab {
@@ -481,7 +481,7 @@ footer p {
     border: 2px solid black;
   }
   .tabs .topics .tabs-link-selected {
-    background-color: purple;
+    background-color: #9800c6;
   }
 }
 .tablet-content .tab-item {

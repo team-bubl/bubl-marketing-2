@@ -513,10 +513,26 @@ footer p {
   max-width: 100%;
 }
 .tablet-content .tab-item .img-content img {
-  max-width: 65%;
+  max-width: 60%;
+  max-height: 60%;
+}
+.tablet-content .tab-item .img-content-special {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.tablet-content .tab-item .img-content-special img {
+  max-width: 45%;
+  max-height: 45%;
 }
 .tablet-content .tabs-item-selected {
-  display: block;
+  display: none;
+}
+@media (min-width: 800px) {
+  .tablet-content .tabs-item-selected {
+    display: block;
+  }
 }
 * {
   box-sizing: border-box;

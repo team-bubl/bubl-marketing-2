@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-- [Install](#install)
+- [Mission](#mission)
 - [Technologies](#technologies)
 - [Maintainers](#maintainers)
 - [Contribute](#contribute)

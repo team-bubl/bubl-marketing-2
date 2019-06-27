@@ -1,6 +1,9 @@
 .width-100 {
   width: 100%;
 }
+.width-90 {
+  width: 90%;
+}
 .border-bottom-grey {
   border-bottom: 1px solid gray;
 }
@@ -133,7 +136,7 @@ table {
   border-spacing: 0;
 }
 .container-nav {
-  max-width: 500px;
+  max-width: 90%;
 }
 .container-nav #logo-icon {
   color: #4af5bc;
@@ -145,7 +148,7 @@ table {
 }
 @media (min-width: 800px) {
   .container-nav {
-    max-width: 800px;
+    max-width: 1240px;
   }
   .container-nav .tablet-hidden {
     display: none;
@@ -159,8 +162,10 @@ table {
   .container-nav .nav-container {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     width: 100%;
     height: 50px;
+    padding: 0 40px 0 40px;
     background-color: white;
   }
   .container-nav .nav-container .nav-links {
@@ -168,12 +173,12 @@ table {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-decoration: none;
   }
   .container-nav .nav-container .nav-links a {
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #4af5bc;
   }
   .container-nav .nav-container .nav-links a:hover {
@@ -200,6 +205,9 @@ footer p {
   font-size: 1em;
   color: gray;
   text-align: center;
+}
+.container-home {
+  max-width: 1280px;
 }
 @media (min-width: 800px) {
   .container-home .mobile-content {
@@ -317,6 +325,9 @@ footer p {
     max-width: 100%;
   }
 }
+.container-about {
+  max-width: 1240px;
+}
 .container-about .container-header-about {
   display: flex;
   flex-direction: column;
@@ -331,7 +342,7 @@ footer p {
   justify-content: center;
 }
 .container-about .container-header-about .header-text-about h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 15px;
   color: #ffa602;
 }
@@ -364,7 +375,7 @@ footer p {
 }
 .container-about .container-content-about .content-section-about .text-content-about h2 {
   margin-bottom: 15px;
-  font-size: 1.8em;
+  font-size: 2em;
   color: #9800c6;
 }
 .container-about .container-content-about .content-section-about .text-content-about p {
@@ -372,9 +383,6 @@ footer p {
   line-height: 25px;
   color: gray;
   font-size: 1.2em;
-}
-.container-about .container-content-about .content-section-about .about {
-  border-bottom: 1px solid gray;
 }
 .container-about .container-content-about .content-section-about-team {
   display: flex;
@@ -385,11 +393,17 @@ footer p {
 .container-about .container-content-about .content-section-about-team .team-headline {
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
   width: 100%;
 }
+@media (min-width: 800px) {
+  .container-about .container-content-about .content-section-about-team .team-headline {
+    margin-top: 15px;
+  }
+}
 .container-about .container-content-about .content-section-about-team h2 {
-  color: #9800c6;
-  font-size: 2em;
+  color: #ffa602;
+  font-size: 2.5em;
   margin-top: 15px;
   width: 100%;
   text-align: center;
@@ -406,14 +420,20 @@ footer p {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin: 15px 0;
 }
 @media (min-width: 800px) {
   .container-about .container-content-about .content-section-about-team .team-member {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     max-width: 50%;
+  }
+  .container-about .container-content-about .content-section-about-team .team-member #special-content {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 }
 .container-about .container-content-about .content-section-about-team .team-member .img-content-team {
@@ -424,11 +444,24 @@ footer p {
 .container-about .container-content-about .content-section-about-team .team-member .img-content-team img {
   max-width: 50%;
 }
+@media (min-width: 800px) {
+  .container-about .container-content-about .content-section-about-team .team-member .img-content-team #special {
+    max-width: 28%;
+  }
+}
 .container-about .container-content-about .content-section-about-team .team-member .text-content-about-team {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 390px;
+}
+@media (min-width: 800px) {
+  .container-about .container-content-about .content-section-about-team .team-member .text-content-about-team {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 390px;
+  }
 }
 .container-about .container-content-about .content-section-about-team .team-member .text-content-about-team h3 {
   margin-top: 15px;
@@ -466,7 +499,7 @@ footer p {
   width: 58px;
 }
 .dropdown .dropdown-content {
-  width: 30%;
+  width: 50%;
   position: absolute;
   background-color: #FFFFFF;
   display: flex;
@@ -499,7 +532,7 @@ footer p {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
     height: 47px;
     background-color: #FFFFFF;
   }
@@ -577,7 +610,7 @@ footer p {
   display: none;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 90%;
   margin-top: 50px;
 }
 .tablet-content .tab-item .text-content {
@@ -631,12 +664,11 @@ footer p {
 body {
   box-sizing: border-box;
   min-width: 300px;
-  max-width: 500px;
   margin: 0 auto;
   padding: 20px;
 }
 @media (min-width: 800px) {
   body {
-    max-width: 800px;
+    max-width: 1240px;
   }
 }

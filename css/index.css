@@ -168,7 +168,7 @@ table {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-decoration: none;
   }
   .container-nav .nav-container .nav-links a {
@@ -224,10 +224,10 @@ footer p {
 .container-home .container-header .header-text h2 {
   font-size: 2em;
   margin-bottom: 15px;
-  color: orangered;
+  color: #9800c6;
 }
 .container-home .container-header .header-text p {
-  color: orangered;
+  color: #9800c6;
   font-size: 1.3em;
   line-height: 30px;
 }
@@ -255,12 +255,13 @@ footer p {
   color: #FFFFFF;
   font-size: 2em;
   border-radius: 5px;
-  transition: width 0.5s, height 0.5s;
+  transition: width 0.2s, height 0.2s;
 }
 .container-home .container-header .cta button:hover {
+  box-shadow: 5px 5px 20px #7d2414 inset;
   background-color: orangered;
   width: 76%;
-  height: 65px;
+  height: 62px;
 }
 @media (min-width: 800px) {
   .container-home .container-header .cta button {
@@ -276,7 +277,7 @@ footer p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 95%;
+  width: 100%;
 }
 .container-home .container-content .mobile-hidden {
   display: none;
@@ -472,7 +473,7 @@ footer p {
   flex-direction: column;
   align-items: center;
   margin-top: 10px;
-  border: 2.5px solid #4af5bc;
+  border: 2.5px solid #3BB888;
 }
 .dropdown .dropdown-link {
   width: 100%;
@@ -480,11 +481,11 @@ footer p {
   padding: 15px 0;
   font-size: 18px;
   text-decoration: none;
-  color: #4af5bc;
+  color: #3BB888;
 }
 .dropdown .dropdown-link:hover {
   color: #FFFFFF;
-  background-color: #4af5bc;
+  background-color: #3BB888;
 }
 .dropdown .dropdown-hidden {
   display: none;
@@ -504,7 +505,7 @@ footer p {
   }
   .tabs .topics {
     display: flex;
-    justify-content: none;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
   }
@@ -524,10 +525,11 @@ footer p {
     width: 100px;
     height: 25px;
     text-align: center;
-    transition: width 0.5s, height 0.5s;
+    transition: width 0.2s, height 0.2s;
   }
   .tabs .topics .tabs-link:hover {
     text-decoration: underline;
+    box-shadow: 2px 2px 10px #147d49 inset;
     color: #FFFFFF;
     width: 105px;
     height: 30px;
@@ -563,17 +565,18 @@ footer p {
   color: #FFFFFF;
   font-size: 2em;
   border-radius: 5px;
-  transition: width 0.5s, height 0.5s;
+  transition: width 0.2s, height 0.2s;
 }
 .tablet-content .tablet-btn-cta button:hover {
   background-color: orangered;
-  height: 65px;
-  width: 405px;
+  box-shadow: 5px 5px 20px #7d2414 inset;
+  height: 62px;
+  width: 402px;
 }
 .tablet-content .tab-item {
   display: none;
   flex-direction: column;
-  justify-items: center;
+  align-items: center;
   width: 100%;
   margin-top: 50px;
 }

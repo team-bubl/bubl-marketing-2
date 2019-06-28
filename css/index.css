@@ -332,12 +332,6 @@ footer p {
     max-width: 100%;
   }
 }
-#logo-icon {
-  color: #4af5bc;
-  font-size: 50px;
-  position: absolute;
-  font-family: 'Rubik Mono One', sans-serif;
-}
 .container-about {
   max-width: 1240px;
 }
@@ -374,7 +368,7 @@ footer p {
   justify-content: center;
 }
 .container-about .container-header-about #about-header-img img {
-  margin-top: 15px;
+  margin-top: px;
   max-width: 100%;
 }
 @media (min-width: 800px) {
@@ -471,7 +465,7 @@ footer p {
 }
 @media (min-width: 800px) {
   .container-about .container-content-about .content-section-about-team .team-member .img-content-team #special {
-    max-width: 28%;
+    max-width: 50%;
   }
 }
 .container-about .container-content-about .content-section-about-team .team-member .text-content-about-team {

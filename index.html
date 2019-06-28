@@ -7,6 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bubl | Home</title>
   <link href="css/index.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK|Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Noto+Sans+HK|Rubik+Mono+One&display=swap"
+    rel="stylesheet">
 
 </head>
 
@@ -19,12 +23,12 @@
 
 
   <!-- nav -->
-  <div class="container-nav">
+  <div class="container-nav" role="navigation">
     <!-- mobile drop down nav -->
     <div class="tablet-hidden">
       <h1 id="logo-icon">Bubl</h1>
       <div class="dropdown">
-        <div class="dropdown-button">=</div>
+        <div class="dropdown-button" role="button" arial-label="dropdown menu mobile">=</div>
         <div class="dropdown-content dropdown-hidden">
           <!-- <a class="dropdown-link" href="index.html" target="_blank">Home</a> -->
           <a class="dropdown-link" href="about.html">About Bubl</a>
@@ -36,7 +40,7 @@
     </div>
 
     <!-- tablet & desktop nav  bar-->
-    <div class="nav-container mobile-hidden">
+    <div class="nav-container mobile-hidden" role="navigation">
       <!-- <h1 id="logo-icon" class="header">Bubl</h1> -->
       <div id="logo-icon-container" class="mobile-hidden">
         <h1 id="logo-icon" class="mobile-hidden">Bubl</h1>
@@ -51,15 +55,15 @@
     </div>
   </div>
 
-  <div class="tabs hidden">
+  <div class="tabs hidden" role="Tabpanel">
     <div class="topics hidden">
       <!-- <span class="title">How to Bubl?</span> -->
-      <div class="tabs-link tabs-link-selected" data-tab="1">Welcome</div>
-      <div class="tabs-link" data-tab="2">Find</div>
-      <div class="tabs-link" data-tab="3">Join</div>
-      <div class="tabs-link" data-tab="4">Connect</div>
-      <div class="tabs-link" data-tab="5">Create</div>
-      <div class="tabs-link" data-tab="6">Muliply</div>
+      <div class="tabs-link tabs-link-selected" role="Tab" data-tab="1">Welcome</div>
+      <div class="tabs-link" role="Tab" data-tab="2">Find</div>
+      <div class="tabs-link" role="Tab" data-tab="3">Join</div>
+      <div class="tabs-link" role="Tab" data-tab="4">Connect</div>
+      <div class="tabs-link" role="Tab" data-tab="5">Create</div>
+      <div class="tabs-link" role="Tab" data-tab="6">Muliply</div>
     </div>
   </div>
 
@@ -68,9 +72,9 @@
   <div class="container-home">
     <div class="container-header">
       <!-- <main class="main-content"> -->
-      <header>
+      <header role="banner">
 
-        <div class="header-text tablet-hidden">
+        <div class="header-text tablet-hidden" role>
           <h2>Welcome To Bubl!</h2>
           <p>Find your school, find your Bubl and connect with friends!
           </p>
@@ -81,7 +85,7 @@
             alt="drawn image of 3 teen girls sharing pizza on a couch">
         </div>
 
-        <div class="cta">
+        <div class="cta" role="button" aria-label="primary sign-up button">
           <button onclick="window.location.href='https://bubl-benjamin-rogers.netlify.com/'">Sign-up</button>
         </div>
 
@@ -89,71 +93,58 @@
     </div>
 
     <!--main content / steps to join a bubl-->
-    <section class="container-content">
+    <main class="container-content" role="main">
 
       <!--mobile styling -->
       <div class="mobile-content">
         <section class="content-section">
           <div class="img-content">
-            <img src="assets/svg/undraw_online_friends_x73e.svg" class=""
-              alt="drawn image boy standing in front of laptop screen viewing profiles">
+            <img src="assets/svg/undraw_online_friends_x73e.svg"
+              alt="Drawn image boy standing in front of laptop screen viewing profiles">
 
           </div>
           <div class="text-content">
-            <h2>Find your Bubl</h2>
-            <!-- <p>Look at the size of that thing! Cut the chatter, Red Two. Accelerate to attack speed. This is it, boys. -->
-            </p>
+            <h2>Find your Bubl!</h2>
           </div>
         </section>
 
 
         <section class="content-section">
           <div class="img-content">
-            <img src="assets/svg/undraw_hire_te5y (1).svg" alt="">
+            <img src="assets/svg/undraw_hire_te5y (1).svg"
+              alt="Girl looks at three large profile cards displayed in front of her, one with a check mark on it">
           </div>
           <div class="text-content">
-            <h2>Join the Bubl</h2>
-            <!-- <p>Not a bad bit of rescuing, huh? You know, sometimes I even amaze myself. That doesn't sound too hard. -->
-            <!-- Besides, they let us go. -->
-            </p>
+            <h2>Join the Bubl!</h2>
           </div>
         </section>
 
         <section class="content-section">
           <div class="img-content">
-            <img src="assets/svg/undraw_friendship_mni7 (1).svg" class="" alt="">
+            <img src="assets/svg/undraw_friendship_mni7 (1).svg" alt="Two boys sit hanging out under a tree together">
           </div>
           <div class="text-content">
-            <h2>Start connecting with new friends</h2>
-            <!-- <p>The entire starfleet couldn't destroy the whole planet. It'd take a thousand ships with more fire power -->
-            <!-- than I've... There's another ship coming in. -->
-            </p>
+            <h2>Start connecting with new friends!</h2>
           </div>
         </section>
 
         <section class="content-section">
           <div class="img-content">
-            <img src="assets/svg/undraw_everyday_life_hjnw (1).svg" class="" alt="">
+            <img src="assets/svg/undraw_everyday_life_hjnw (1).svg" class="" alt="A girl hangs out her window taking a selfie while a Bubl 
+            character plays with a cat">
           </div>
           <div class="text-content">
-            <h2>Create a new Bubl</h2>
-            <!-- <p>Why aren't you at your post? TX-four-one-two, do you copy? Take over. We've got a bad transmitter. I'll -->
-            <!-- see -->
-            <!-- what I can do. You know, between his howling and your blasting everything in sight. -->
-            </p>
+            <h2>Create a new Bubl!</h2>
           </div>
         </section>
 
         <section class="content-section">
           <div class="img-content">
-            <img src="assets/svg/undraw_unexpected_friends_tg6k (1).svg" class="" alt="">
+            <img src="assets/svg/undraw_unexpected_friends_tg6k (1).svg" class="" alt="A boy stands with his arms up while three Bubl characters
+            play around him">
           </div>
           <div class="text-content">
             <h2>Join multiple Bubls!</h2>
-            <!-- <p>Why aren't you at your post? TX-four-one-two, do you copy? Take over. We've got a bad transmitter. I'll -->
-            <!-- see -->
-            <!-- what I can do. You know, between his howling and your blasting everything in sight. -->
-            </p>
           </div>
         </section>
       </div>
@@ -164,13 +155,11 @@
 
         <section class="tab-item tabs-item-selected" data-tab="1">
           <div class="img-content">
-            <img src="assets/svg/undraw_pizza_sharing_wxop (1).svg" class=""
-              alt="drawn image of 3 teen girls sharing pizza on a couch">
-
+            <img src="assets/svg/undraw_pizza_sharing_wxop (1).svg" alt="Three teen girls sharing pizza on a couch">
           </div>
           <div class="text-content">
             <h2>Welcome To Bubl!</h2>
-            <!-- <p>Find your school, find your Bubl and connect with new friends! -->
+            <p>Find your school, find your Bubl and connect with new friends!
             </p>
           </div>
         </section>
@@ -179,84 +168,65 @@
         <section class="tab-item" data-tab="2">
           <div class="img-content">
             <img src="assets/svg/undraw_online_friends_x73e.svg" class=""
-              alt="drawn image boy standing in front of laptop screen viewing profiles">
+              alt="A boy standing in front of laptop screen viewing profiles">
 
           </div>
           <div class="text-content">
-            <h2>Find your Bubl</h2>
-            <!-- <p>Look at the size of that thing! Cut the chatter, Red Two. Accelerate to attack speed. This is it, boys. -->
-            </p>
+            <h2>Find your Bubl!</h2>
           </div>
         </section>
 
 
         <section class="tab-item" data-tab="3">
           <div class="img-content">
-            <img src="assets/svg/undraw_hire_te5y (1).svg" alt="">
+            <img src="assets/svg/undraw_hire_te5y (1).svg"
+              alt="Girl looks at three large profile cards displayed in front of her, one with a check mark on it">
           </div>
           <div class="text-content">
-            <h2>Join the Bubl</h2>
-            <!-- <p>Not a bad bit of rescuing, huh? You know, sometimes I even amaze myself. That doesn't sound too hard. -->
-            <!-- Besides, they let us go. -->
-            </p>
+            <h2>Join the Bubl!</h2>
           </div>
         </section>
 
         <section class="tab-item" data-tab="4">
           <div class="img-content-special">
-            <img src="assets/svg/undraw_friendship_mni7 (1).svg" class="" alt="">
+            <img src="assets/svg/undraw_friendship_mni7 (1).svg" alt="Two boys sit hanging out under a tree together">
           </div>
           <div class="text-content">
-            <h2>Start connecting with new friends</h2>
-            <!-- <p>The entire starfleet couldn't destroy the whole planet. It'd take a thousand ships with more fire power -->
-            <!-- than I've... There's another ship coming in. -->
-            </p>
+            <h2>Start connecting with new friends!</h2>
           </div>
         </section>
 
         <section class="tab-item" data-tab="5">
           <div class="img-content-special">
-            <img src="assets/svg/undraw_everyday_life_hjnw (1).svg" class="" alt="">
+            <img src="assets/svg/undraw_everyday_life_hjnw (1).svg" alt="A girl hangs out her window taking a selfie while a Bubl 
+            character plays with a cat">
           </div>
           <div class="text-content">
-            <h2>Create a new Bubl</h2>
-            <!-- <p>Why aren't you at your post? TX-four-one-two, do you copy? Take over. We've got a bad transmitter. I'll -->
-            <!-- see -->
-            <!-- what I can do. You know, between his howling and your blasting everything in sight. -->
-            </p>
+            <h2>Create a new Bubl!</h2>
           </div>
         </section>
 
         <section class="tab-item" data-tab="6">
           <div class="img-content-special">
-            <img src="assets/svg/undraw_unexpected_friends_tg6k (1).svg" class="" alt="">
+            <img src="assets/svg/undraw_unexpected_friends_tg6k (1).svg" alt="A boy stands with his arms up while three Bubl characters
+            play around him">
           </div>
           <div class="text-content">
             <h2>Join multiple Bubls!</h2>
-            <!-- <p>Why aren't you at your post? TX-four-one-two, do you copy? Take over. We've got a bad transmitter. I'll -->
-            <!-- see -->
-            <!-- what I can do. You know, between his howling and your blasting everything in sight. -->
-            </p>
           </div>
         </section>
 
         <div class="tablet-cta mobile-hidden">
-          <div class="tablet-btn-cta">
+          <div class="tablet-btn-cta" role="button" aria-label="primary sign-up button">
             <button onclick="window.location.href='https://bubl-benjamin-rogers.netlify.com/'">Sign-up</button>
           </div>
         </div>
       </div>
+    </main>
+  </div>
 
-      <!--tablet / desktop cta button -->
-      <!-- <div class="tablet-cta mobile-hidden">
-        <div class="tablet-btn-cta">
-          <button>Sign-up</button>
-        </div>
-      </div> -->
-  </div>
-  </section>
-  </div>
-  <footer>
+
+  <footer role="contentinfo">
     <p>@Copyright Team-Bubl Lambda School 2019</p>
 
   </footer>

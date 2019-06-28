@@ -2,36 +2,32 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-> A marketing site for Bubl -- A Lambda School Build Week project
-
 ## Table of Contents
 
-- [Install](#install)
-- [Usage](#usage)
+- [Mission](#mission)
+- [Technologies](#technologies)
 - [Maintainers](#maintainers)
 - [Contribute](#contribute)
 - [License](#license)
 
-## Install
+## Mission
 
-```
-```
+Our mission is to increase a sense of belonging and reduce social anxiety amongst new High School students. 
 
-## Usage
+Bubl does this by providing Middle School students who are transitioning to High School a space to have topical discussions and develop relationships with other students who have similar interests.
 
-```
-```
+## Technologies
+
+This portion of the project (the landing page and marketing site for Bubl) was build using HTML, Less/CSS, and vanilla JavaScript.
 
 ## Maintainers
 
-[@PUT_YOUR_GITHUB_HANDLE_HERE](https://github.com/PUT_YOUR_GITHUB_HANDLE_HERE)
+[@juliethrallstewart](https://github.com/juliethrallstewart)
 
 ## Contribute
 
-
-
-Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+This is a @LambdaSchool student project, and as such Pull Requests and other contributions are not accepted. 
 
 ## License
 
-MIT © 2019 PUT_YOUR_NAME_HERE
+MIT © 2019 Julie Thrall Stewart

@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bubl | About</title>
     <link href="css/index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK|Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Noto+Sans+HK|Rubik+Mono+One&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -18,12 +22,12 @@
     <script defer="defer" src="../assets/js/components/Navigation/navigation.js"></script>
 
     <!-- nav -->
-    <div class="container-nav">
+    <div class="container-nav" role="navigation">
         <!-- mobile drop down nav -->
         <div class="tablet-hidden">
             <h1 id="logo-icon">Bubl</h1>
             <div class="dropdown">
-                <div class="dropdown-button">=</div>
+                <div class="dropdown-button" role="navigation" aria-label="dropdown menu mobile">=</div>
                 <div class="dropdown-content dropdown-hidden">
                     <a class="dropdown-link" href="index.html">Home</a>
                     <a class="dropdown-link" href="#about.html">About Bubl</a>
@@ -60,7 +64,6 @@
                     <h1>Why Bubl can help you travel your own <span>Terra Incognita...</span></h1>
                 </div>
                 <div>
-                    <!-----Dragon Image----->
                     <div id="about-header-img">
                         <img src="assets/svg/undraw_nature_fun_n9lv.svg">
                     </div>
@@ -70,7 +73,7 @@
         </div>
 
         <!-- Main content / About Bubl section -->
-        <section class="container-content-about">
+        <main class="container-content-about" role="main">
 
             <section class="content-section-about">
 
@@ -113,81 +116,82 @@
                 </div>
             </section>
 
-            <!--- Main content / Who made Bubl section -->
+            <!--- Main content / Meet the Team section -->
             <section class="content-section-about-team" id="team">
                 <div class="team-headline">
-                    <h2>Meet our Team</h2>
+                    <h3>Meet our Team</h3>
                 </div>
                 <div class="team-member">
                     <div class="img-content-team">
-                        <img src="assets/img/man-2.png" class="" alt="">
+                        <img src="assets/img/man-2.png" alt="Nick Cannariato">
                     </div>
                     <div class="text-content-about-team">
-                        <h3>Nick Cannariato</h3>
+                        <h4>Nick Cannariato</h4>
                         <p>Team Lead, Backend Architect</p>
                     </div>
                 </div>
 
                 <div class="team-member">
                     <div class="img-content-team">
-                        <img src="assets/img/user-16.png" class="" alt="">
+                        <img src="assets/img/user-16.png" alt="Brandon Gardner">
                     </div>
                     <div class="text-content-about-team">
-                        <h3>Brandon Gardner</h3>
+                        <h4>Brandon Gardner</h4>
                         <p>Backend Architect</p>
                     </div>
                 </div>
 
                 <div class="team-member">
                     <div class="img-content-team">
-                        <img src="assets/img/user-4.png" class="" alt="">
+                        <img src="assets/img/user-4.png" alt="Terrel Tullis">
                     </div>
                     <div class="text-content-about-team">
-                        <h3>Terrel Tullis</h3>
+                        <h4>Terrel Tullis</h4>
                         <p>Backend Architect Support</p>
                     </div>
                 </div>
 
                 <div class="team-member">
                     <div class="img-content-team">
-                        <img src="assets/img/man-1.png" class="" alt="">
+                        <img src="assets/img/man-1.png" alt="Ben Rogers">
                     </div>
                     <div class="text-content-about-team">
-                        <h3>Ben Rogers</h3>
+                        <h4>Ben Rogers</h4>
                         <p>Front End Architect</p>
                     </div>
                 </div>
 
                 <div class="team-member">
                     <div class="img-content-team">
-                        <img src="assets/img/user-20.png" class="" alt="">
+                        <img src="assets/img/user-20.png" alt="Chinaemere Ike">
                     </div>
                     <div class="text-content-about-team">
-                        <h3>Chinaemere Ike</h3>
+                        <h4>Chinaemere Ike</h4>
                         <p>UI Interface Devloper, UX</p>
                     </div>
                 </div>
 
                 <div class="team-member">
                     <div class="img-content-team">
-                        <img src="assets/img/girl-1.png" alt="">
+                        <img src="assets/img/girl-1.png" alt="Jada Broome">
                     </div>
                     <div class="text-content-about-team">
-                        <h3>Jada Broome</h3>
+                        <h4>Jada Broome</h4>
                         <p>UI Interface Developer, UX</p>
                     </div>
                 </div>
 
                 <div class="team-member">
                     <div class="img-content-team">
-                        <img src="assets/img/user-15.png" id="special" class="" alt="">
-                        <div class="text-content-about-team" id="special-content">
-                            <h3>Julie Thrall Stewart</h3>
-                            <p>UI Interface Developer, UX</p>
-                        </div>
+                        <img src="assets/img/user-15.png" id="special" alt="Julie Thrall Stewart">
                     </div>
+                    <div class="text-content-about-team" id="special-content">
+                        <h4>Julie Thrall Stewart</h4>
+                        <p>UI Interface Developer, UX</p>
+                    </div>
+                </div>
             </section>
-        </section>
+        </main>
         <footer>
             <p>@Copyright Team-Bubl Lambda School 2019</p>
             <p>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a

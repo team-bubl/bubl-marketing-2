@@ -142,6 +142,7 @@ table {
   color: #4af5bc;
   font-size: 50px;
   position: absolute;
+  font-family: 'Rubik Mono One', sans-serif;
 }
 .container-nav .mobile-hidden {
   display: none;
@@ -196,10 +197,15 @@ table {
   }
 }
 footer {
-  margin: 100px 0 20px 0;
+  margin: 200px 0 20px 0;
   display: flex;
   flex-direction: column;
   align-content: center;
+}
+@media (min-width: 800px) {
+  footer {
+    margin-top: 40px;
+  }
 }
 footer p {
   font-size: 1em;
@@ -326,6 +332,12 @@ footer p {
     max-width: 100%;
   }
 }
+#logo-icon {
+  color: #4af5bc;
+  font-size: 50px;
+  position: absolute;
+  font-family: 'Rubik Mono One', sans-serif;
+}
 .container-about {
   max-width: 1240px;
 }
@@ -391,8 +403,9 @@ footer p {
 .container-about .container-content-about .content-section-about .text-content-about p {
   margin-bottom: 15px;
   line-height: 30px;
+  letter-spacing: 1px;
   color: gray;
-  font-size: 1.2em;
+  font-size: 1.5em;
   max-width: 800px;
   text-align: left;
 }
@@ -413,7 +426,7 @@ footer p {
     margin-top: 15px;
   }
 }
-.container-about .container-content-about .content-section-about-team h2 {
+.container-about .container-content-about .content-section-about-team h3 {
   color: #ffa602;
   font-size: 2.5em;
   margin-top: 15px;
@@ -468,23 +481,23 @@ footer p {
   width: 390px;
 }
 @media (min-width: 800px) {
-  .container-about .container-content-about .content-section-about-team .team-member .text-content-about-team {
+  .container-about .container-content-about .content-section-about-team .team-member {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 390px;
   }
 }
-.container-about .container-content-about .content-section-about-team .team-member .text-content-about-team h3 {
+.container-about .container-content-about .content-section-about-team .team-member h4 {
   margin-top: 15px;
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: gray;
 }
-.container-about .container-content-about .content-section-about-team .team-member .text-content-about-team p {
+.container-about .container-content-about .content-section-about-team .team-member p {
   margin-bottom: 15px;
   line-height: 25px;
   color: gray;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 .dropdown {
   z-index: 2;
@@ -678,6 +691,7 @@ body {
   min-width: 300px;
   margin: 0 auto;
   padding: 20px;
+  font-family: 'Noto Sans HK', sans-serif;
 }
 @media (min-width: 800px) {
   body {
